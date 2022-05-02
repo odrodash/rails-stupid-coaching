@@ -1,0 +1,13 @@
+.card {
+  border-left: 2px solid grey;
+  height: 110px;
+
+}
+
+.background{
+  background-color: rgba(255,255,0,0.1);
+}
+
+p {
+  margin-left: 10px;
+}

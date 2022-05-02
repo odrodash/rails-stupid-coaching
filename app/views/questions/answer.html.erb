@@ -1,0 +1,22 @@
+<h1>Stupid Coach</h1>
+<br>
+<div class="card">
+  <br>
+  <p><%= @questions %></p>
+  <p>-YOU</p>
+</div>
+<br>
+<div class="card background">
+  <br>
+  <p>
+  <% if @questions == "I am going to work" %>
+    <%= "Great!" %>
+  <% elsif @questions.include?("?") %>
+    <%= "Silly question, get dressed and go to work!" %>
+  <% else %>
+    <%= "I don't care, get dressed and go to work!" %>
+  <% end %>
+  </p>
+  <p>-YOUR COACH</p>
+</div>
+<br>
